@@ -1,0 +1,32 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>14</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>294</w><h>196</h></coordinates><panel_attributes>Envase
+--
+- tipo: string;
+- capacidad: int;
+- alto: float;
+- diametro: float;
+- material: string;
+- valorDevolucionXUn: float;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>280</y><w>294</w><h>154</h></coordinates><panel_attributes>Panel
+--
+- BotonInicio: bool = false;
+- BotonRecibo: bool = false:
+--
++ IniciaScaneo();
++ ImprimeRecibo();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>308</x><y>0</y><w>294</w><h>266</h></coordinates><panel_attributes>Cliente
+--
+- IDCliente: int;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>616</x><y>0</y><w>294</w><h>266</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element></diagram>

@@ -1,0 +1,24 @@
+Ejercicio 1
+Caso: El cliente desea devolver latas, botellas y envases.
+El proceso comienza cuando el cliente presiona
+el ”botón inicio" en el panel del cliente. Los
+sensores incorporados en el panel se activan.
+El cliente puede devolver elementos (botella,
+envase, etc.) a través del panel. Los sensores
+informan al sistema que un objeto ha sido
+insertado, calibran el elemento depositado y
+devuelven el resultado al sistema. El sistema
+utiliza el resultado medido para determinar el
+tipo de elemento devuelto.
+El total diario de elementos depositados se
+incrementa, así como el total de elementos
+que el cliente ha depositado.
+Cuando el cliente ha depositado todos los
+elementos a devolver, solicita el recibo
+presionando el ”botón recibo". El sistema
+procesa la información que debe imprimirse en
+el recibo. Por cada tipo de elemento depositado
+extrae su valor de devolución y el número de
+elementos depositados por el cliente actual. Se
+imprime el recibo con el detalle y el total de los
+elementos devueltos y el proceso finaliza.
